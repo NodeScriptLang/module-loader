@@ -47,6 +47,18 @@ flowchart LR
 
 ## Usage
 
+Via Node.js CLI:
+
 ```
 node --import @nodescript/module-loader/register ./entrypoint.js
+```
+
+Or in `mocharc.json`:
+
+```json
+{
+    "require": [
+        "@nodescript/module-loader/register"
+    ]
+}
 ```
