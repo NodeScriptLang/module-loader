@@ -2,6 +2,6 @@
     "reporter": "spec",
     "spec": "./out/**/*.test.js",
     "require": [
-        "./register-async.mjs"
+        "./register.mjs"
     ]
 }
