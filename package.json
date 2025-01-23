@@ -5,7 +5,7 @@
     "description": "HTTP module loader for NodeScript backend runtime",
     "exports": {
         ".": "./out/main/index.js",
-        "./register-async": "./register-async.mjs"
+        "./register": "./register-async.mjs"
     },
     "files": [
         "out/main/**/*"
