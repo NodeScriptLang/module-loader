@@ -1,6 +1,6 @@
 {
     "name": "@nodescript/module-loader",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "module",
     "description": "HTTP module loader for NodeScript backend runtime",
     "exports": {
