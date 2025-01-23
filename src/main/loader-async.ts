@@ -63,7 +63,10 @@ function isHttpSpecifier(specifier: string) {
 }
 
 function isLocalhost(specifier: string) {
-    return specifier.startsWith('http://localhost') || specifier.startsWith('http://127.0.0.1');
+    return specifier.startsWith('http://localhost:') ||
+        specifier.startsWith('http://localhost/') ||
+        specifier.startsWith('http://127.0.0.1:') ||
+        specifier.startsWith('http://127.0.0.1/');
 }
 
 function isRelativeImport(specifier: string) {
