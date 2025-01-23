@@ -70,7 +70,9 @@ function isLocalhost(specifier: string) {
 }
 
 function isRelativeImport(specifier: string) {
-    return specifier.startsWith('./') || specifier.startsWith('../');
+    return specifier.startsWith('./') ||
+        specifier.startsWith('../') ||
+        specifier.startsWith('/');
 }
 
 function isDataUrl(specifier: string) {
