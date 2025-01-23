@@ -5,10 +5,11 @@
     "description": "HTTP module loader for NodeScript backend runtime",
     "exports": {
         ".": "./out/main/index.js",
-        "./register": "./register-async.mjs"
+        "./register": "./register.mjs"
     },
     "files": [
-        "out/main/**/*"
+        "out/main/**/*",
+        "register.mjs"
     ],
     "scripts": {
         "clean": "rm -rf out *.tsbuildinfo",
